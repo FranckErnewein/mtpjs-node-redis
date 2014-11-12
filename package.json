@@ -25,5 +25,10 @@
     "grunt-browserify": "^3.2.0",
     "grunt-contrib-less": "^0.12.0",
     "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "engine.io": "^1.4.2",
+    "engine.io-client": "^1.4.2",
+    "express": "^4.10.2"
   }
 }
