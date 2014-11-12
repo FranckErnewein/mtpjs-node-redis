@@ -3,7 +3,6 @@ mtpjs-node-redis
 
 MontpellierJS sur Nodejs et Redis
 
-
 ## Caractéristiques de Nodejs
 
 * Evenementiel
@@ -35,12 +34,12 @@ Autant que possible, il est préférable de produire du code "stateless"
 
 ## Étapes du tictactoe
 
-1) bootstraping du projet
-2) mise en place du server de websocket
-3) ecriture du client
-4) initialisé le jeu
-5) coché une case
+* bootstraping du projet
+* mise en place du server de websocket
+* ecriture du client
+* initializé le jeu
+* coché une case
 
-TODO: 
-6) implement React from
+TODO :
+implement React from
 http://jsbin.com/cosucemuva/1/edit?js,output
