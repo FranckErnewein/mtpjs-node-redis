@@ -38,6 +38,8 @@ Autant que possible, il est préférable de produire du code "stateless"
 1) bootstraping du projet
 2) mise en place du server de websocket
 3) ecriture du client
+4) initializé le jeu
+5) coché une case
 
-TODO: etape du jeu
-4) ... 
+TODO: 
+6) ... 
