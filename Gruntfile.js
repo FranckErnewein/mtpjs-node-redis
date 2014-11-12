@@ -7,6 +7,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     browserify: {
       options: {
+        transform: ['hbsfy'],
         watch: true,
         browerifyOptions: {
           debug: true,

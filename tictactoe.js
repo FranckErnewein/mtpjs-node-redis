@@ -8,8 +8,18 @@ var ws_server = engine.attach(http_server);
 
 app.use(express.static(__dirname + '/public'));
 
-ws_server.on('connection', function(){
-  console.log('user connected');
+ws_server.on('connection', function(client) {
+
+  getGameState(function(data) {
+    client.send(JSON.stringify(data));
+  });
+
 });
+
+function getGameState(callback) {
+  var data = {};
+  data.pid = process.pid;
+  callback(data);
+}
 
 http_server.listen(5555);

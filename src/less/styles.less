@@ -2,5 +2,26 @@
 
 body{
   font-family: sans-serif;
+  padding: 0 5%;
 }
 
+h1{
+  font-size: 2em;
+  text-align: center;
+  padding: 0.2em;
+}
+
+.grid{
+
+  @size: 100px;
+
+  width: @size * 3;
+  height: @size * 3;
+
+  div{
+    width: @size;
+    height: @size;
+    float: left;
+    outline: 1px solid #aaa;
+  }
+}

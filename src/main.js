@@ -1,9 +1,16 @@
 var engine = require('engine.io-client');
+var $ = require('jquery');
+var template = require('./template.hbs');
 
-var socket = engine('/', {
-  transports: ['websocket']
+$(document).ready(function() {
+  var socket = engine('/', {
+    transports: ['websocket']
+  });
+  socket.on('message', function(json) {
+    render(JSON.parse(json));
+  });
 });
 
-socket.on('open', function(){
-  console.log('open');
-});
+function render(data) {
+  $('#game').html(template(data));
+}
