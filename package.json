@@ -1,0 +1,29 @@
+{
+  "name": "mtpjs-node-redis",
+  "version": "0.0.0",
+  "description": "TicTacToe based on nodejs / redis ",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranckErnewein/mtpjs-node-redis.git"
+  },
+  "keywords": [
+    "tictactoe",
+    "redis"
+  ],
+  "author": "Franck Ernewein <franck.ernewein@gmail.com> (http://franckernewein.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranckErnewein/mtpjs-node-redis/issues"
+  },
+  "homepage": "https://github.com/FranckErnewein/mtpjs-node-redis",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
