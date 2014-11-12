@@ -26,3 +26,10 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# build file
+public/js/
+public/css/*.css
+
+# Redis dump
+dump.rdb
