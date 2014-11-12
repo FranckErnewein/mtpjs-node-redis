@@ -42,4 +42,5 @@ Autant que possible, il est préférable de produire du code "stateless"
 5) coché une case
 
 TODO: 
-6) ... 
+6) implement React from
+http://jsbin.com/cosucemuva/1/edit?js,output
