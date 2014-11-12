@@ -9,6 +9,14 @@ $(document).ready(function() {
   socket.on('message', function(json) {
     render(JSON.parse(json));
   });
+
+  $(document).click('click', function(e){
+    var $cell = $(e.target);
+    var pos = $cell.data('cell-id');
+    if(pos){
+      socket.send(pos);
+    }
+  });
 });
 
 function render(data) {
