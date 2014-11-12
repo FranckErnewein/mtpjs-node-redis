@@ -15,7 +15,7 @@ soit à cause d'un cluster,
 soit par la multiplicité des services
 (voir les deux)
 
-## Caractérisitique de Redis
+## Caractéristiques de Redis
 
 * Minimaliste 
 * Performante 
@@ -28,17 +28,17 @@ Autant que possible, il est préférable de produire du code "stateless"
 * Facilité de cluster
 * Reduction des fuites mémoires 
 
-## Example d'architecture
+## Exemple d'architecture
 
 * Tweetping: cerveau + cluster
 * Tic Tac Toe: full stateless (100% clusterisable)
 
-## Etape du tictactoe
+## Étapes du tictactoe
 
 1) bootstraping du projet
 2) mise en place du server de websocket
 3) ecriture du client
-4) initializé le jeu
+4) initialisé le jeu
 5) coché une case
 
 TODO: 
