@@ -6,7 +6,7 @@ MontpellierJS sur Nodejs et Redis
 ## Caractéristiques de Nodejs
 
 * Evenementiel
-* Monothred
+* Monothread
 * Garbage Collector
 
 Une application nodejs se constituera a 99% de plusieurs process, 
